@@ -1,0 +1,132 @@
+@media (max-width:1000px) {
+    
+    .btn-nav {
+        background-color: white;
+        cursor: pointer;
+        border: none;
+        width: 50px;
+        height: 40px;
+        position: fixed;
+        top: 2px;
+        left: 2px;
+        background-image: url(../images/icons8_menu_50px_1.png);
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: center top;
+        outline: none;
+        transition: transform 0.3s ease-in-out;
+    }
+    .btn-nav.active {
+        transform: translateX(150px);
+    }
+    
+    .btn-nav, .nav-active {
+        display: inline-block;
+    }
+
+    .nav-active {
+        background-color: white;
+        top: 0;
+        left: 0;
+        position: fixed;
+        height: 100vh;
+        padding: 2rem;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .nav-active.active {
+        transform: translateX(0);
+    }
+    
+    .nav-active ul {
+        padding: 0;
+        list-style-type: none;
+        
+    }
+    
+    .nav-active a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .nav-active a:hover {
+        padding-bottom: 5px;
+        border-bottom: 2px #F7F4EA solid;
+    
+    }
+    
+    .nav-active ul li {
+        padding: 1rem 0;
+    }
+
+@media (max-width:375px) {
+    body {
+        display: flex;
+        justify-content: column;
+        flex-wrap: wrap;
+
+    }
+    .header-title {
+        text-align: center;
+        display: flex;
+    }
+    .header-span {
+       
+    }
+    .header-nav-media {
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .header-nav {
+        display: none;
+    }
+    .header-image {
+        display: none;
+    }
+    .skills-programs {
+        flex-wrap: wrap;
+    }
+    .programs-block {
+        flex-basis: 50%;
+    }
+    .programs-star {
+        padding-bottom: 30px;
+    }
+    .portfolio-img {
+        width: 500px;
+        right: 0;
+        left: 0;
+    }
+}

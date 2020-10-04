@@ -1,0 +1,33 @@
+.content-portfolio {
+    text-align: center;
+    justify-content: column;
+    background: #F6F6F6;
+    padding-bottom: 47px;
+}
+
+.portfolio-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolio-git {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+.portfolio-title {
+    padding-bottom: 47px;
+    padding-top: 112px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    font-weight: bold;
+}

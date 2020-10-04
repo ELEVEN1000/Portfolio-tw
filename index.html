@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <title>My site</title>
+</head>
+<body>
+    <header class="header container">
+
+        <button class="btn-nav" id="btn"></button>
+        <nav class="nav-active" id="nav">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Обо мне</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <nav class="header-nav-media">
+                <ul class="header-nav">
+                    <li><a href="#About_me">About me</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <section class="header-title">
+                <div class="header-text">
+                    <h1>Denis Novik</h1>
+                    <p>UX|UI designer <br> 22 years, Tomsk</p>
+                    <span class="header-span"> <a href="#">ENG</a> | <a href="#">RU</a></span>
+                </div>
+                <div class="header-photo">
+                    <img class="header-image" src="images/BSPP2266.svg" alt="">
+                </div>
+            </section>
+        </section>
+    </header>
+
+    <main>
+        <section class="content-about">
+            <h1 id="About_me" class="content-title">About me</h1>
+            <p class="content-text"> <span> Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.</span> <br><br><br> <span>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</span> <br><br><br> <span> Ready to implement excellent projects with wonderful people.</span></p>
+        </section>
+
+        <section class="content-skills container">
+            <div class="skills-text"><h1 id="Skills" class="skills-h">Skills</h1><p class="skills-p">I work in such programs as</p>
+            </div>
+            <div class="skills-programs">
+                <div class="programs-block">
+                    <img src="images/Photoshop.png" alt="" class="programs-image">
+                    <h4>Adobe Photoshop</h4>
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-gray.svg" alt="" class="programs-star">
+                </div>
+                <div class="programs-block">
+                    <img src="images/Illustrator.svg" alt="" class="programs-image">
+                    <h4>Adobe Illustrator</h4>
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-gray.svg" alt="" class="programs-star">
+                    <img src="images/Star-gray.svg" alt="" class="programs-star">
+                </div>
+                <div class="programs-block">
+                    <img src="images/Affter-Effects.svg" alt="" class="programs-image">
+                    <h4>Adobe Affter Effects</h4>
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-gray.svg" alt="" class="programs-star">
+                </div>
+                <div class="programs-block">
+                    <img src="images/Figma.svg" alt="" class="programs-image">
+                    <h4>Figma</h4>
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-black.svg" alt="" class="programs-star">
+                    <img src="images/Star-gray.svg" alt="" class="programs-star">
+                </div>
+            </div>
+        </section>
+
+        <section class="content-portfolio">
+            <h1 id="Portfolio" class="portfolio-title">Portfolio</h1>
+            <div class="portfolio-one">
+                <img class="portfolio-img" src="images/portfolio-1.png" alt="">
+                <a href="" class="portfolio-git">Online fashion store - Homepage</a>
+            </div>
+            <div class="portfolio-two">
+                <img class="portfolio-img" src="images/portfolio-2.png" alt="">
+                <a href="" class="portfolio-git">Reebok Store - Concept</a>
+            </div>
+            <div class="portfolio-three">
+                <img class="portfolio-img" src="images/portfolio-3.png" alt="">
+                <a href="" class="portfolio-git">Braun Landing Page - Concept</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <section class="footer-content">
+            <div class="footer-text">
+                <h1 id="Contacts" class="footer-h">Contacts</h1>
+                <p class="footer-p">Want to know more or just chat? <br> You are welcome!</p>
+            </div>
+            <button class="footer-button">Send message</button>
+            <div class="footer-social">
+                <a href="#" class="footer-social-img"><img  src="images/inst.svg" alt=""></a>
+                <a href="#" class="footer-social-img"><img  src="images/in.svg" alt=""></a>
+                <a href="#" class="footer-social-img"><img  src="images/be.svg" alt=""></a>
+                <a href="#" class="footer-social-img"><img  src="images/surf.svg" alt=""></a>
+            </div>
+            <div>
+                <p class="footer-license">Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
